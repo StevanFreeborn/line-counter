@@ -1,6 +1,6 @@
 {
   "name": "@stevanfreeborn/line-counter",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A simple line counter for reporting the number of lines changed in committed and uncommitted files.",
   "main": "dist/index.js",
   "bin": {
