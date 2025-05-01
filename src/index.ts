@@ -41,7 +41,7 @@ try {
     const totalRemoved = committedDiff.removed + uncommittedDiff.removed;
     const totalChanged = totalAdded + totalRemoved;
 
-    const output = `Total lines changed: ${totalChanged} (Committed: +${committedDiff.added}/-${committedDiff.removed}, Uncommitted: +${uncommittedDiff.added}/-${uncommittedDiff.removed})`;
+    const output = `Total lines changed: ${totalChanged}\nCommitted: +${committedDiff.added}/-${committedDiff.removed}\nUncommitted: +${uncommittedDiff.added}/-${uncommittedDiff.removed}`;
 
     console.clear();
     console.log(output);
